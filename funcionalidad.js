@@ -1,3 +1,3 @@
-var nombreCompleto;
-var apellido = "Mareco";
-nombre = " Alejandro Julian";
+var nombreCompleto = 3;
+var apellido = 'Mareco';
+nombre = 'Alejandro Julian';
