@@ -17,4 +17,18 @@ res3 = numero4++;
 var num = 2;
 var res5 = 1;
 res += num;
-alert(res5);
+//alert(res5);
+
+var incrNum = 0;
+//alert(incrNum++);
+
+var decrNum = 5;
+//alert(--decrNum);
+
+var boleano = true;
+//alert(!boleano);
+var boleanoDos = false;
+//alert(boleano&&boleanoDos);
+
+//alert(nombreCompleto==apellido);
+alert(nombreCompleto!=apellido);
