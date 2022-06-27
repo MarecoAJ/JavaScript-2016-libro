@@ -36,4 +36,5 @@ var boleanoDos = false;
 //alert((10>=9)? "si" : "no");
 
 res5= void(1+2);
-alert(res5);
+//alert(res5);
+alert(typeof("hola") == "string");
