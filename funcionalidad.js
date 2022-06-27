@@ -31,4 +31,6 @@ var boleanoDos = false;
 //alert(boleano&&boleanoDos);
 
 //alert(nombreCompleto==apellido);
-alert(nombreCompleto!=apellido);
+//alert(nombreCompleto!=apellido);
+
+alert((10>=9)? "si" : "no");
