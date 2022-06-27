@@ -33,4 +33,7 @@ var boleanoDos = false;
 //alert(nombreCompleto==apellido);
 //alert(nombreCompleto!=apellido);
 
-alert((10>=9)? "si" : "no");
+//alert((10>=9)? "si" : "no");
+
+res5= void(1+2);
+alert(res5);
