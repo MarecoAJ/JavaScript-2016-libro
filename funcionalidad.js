@@ -37,4 +37,11 @@ var boleanoDos = false;
 
 res5= void(1+2);
 //alert(res5);
-alert(typeof("hola") == "string");
+//alert(typeof("hola") == "string");
+
+function sumaDosNUmeros(){
+
+  res5 = 2+ 5;
+}
+sumaDosNUmeros();
+alert(res5);
