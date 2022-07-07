@@ -39,9 +39,9 @@ res5= void(1+2);
 //alert(res5);
 //alert(typeof("hola") == "string");
 
-function sumaDosNUmeros(){
+function sumaDosNUmeros(numero){
 
-  res5 = 2+ 5;
+  res5 = numero + 5;
 }
-sumaDosNUmeros();
+sumaDosNUmeros(5);
 alert(res5);
