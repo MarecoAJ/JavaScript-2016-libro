@@ -41,7 +41,9 @@ res5= void(1+2);
 
 function sumaDosNUmeros(numero){
 
-  res5 = numero + 5;
+  return numero + 5;
 }
 sumaDosNUmeros(5);
+//alert(res5);
+res5 = sumaDosNUmeros(7);
 alert(res5);
