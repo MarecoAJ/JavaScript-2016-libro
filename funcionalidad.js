@@ -46,4 +46,15 @@ function sumaDosNUmeros(numero){
 sumaDosNUmeros(5);
 //alert(res5);
 res5 = sumaDosNUmeros(7);
-alert(res5);
+//alert(res5);
+
+var resultado, tipo;
+function acelerar(velocidad){
+  if(velocidad<=120){
+    return;
+  }
+  alert(velocidad + "KM/HRS ojo!");
+}
+resultado = acelerar(100);
+tipo= typeof(resultado);
+alert(tipo);
