@@ -14,6 +14,8 @@ res3 = numero4++;
 //  alert(res2);
 //  alert(res3);
 
+var globales = 10; 
+
 var num = 2;
 var res5 = 1;
 res += num;
@@ -57,4 +59,13 @@ function acelerar(velocidad){
 }
 resultado = acelerar(100);
 tipo= typeof(resultado);
-alert(tipo);
+//alert(tipo);
+
+function variablesPrueba(){
+
+  var globales = 5;
+  return globales;
+}
+
+alert(globales);
+alert(variablesPrueba());
