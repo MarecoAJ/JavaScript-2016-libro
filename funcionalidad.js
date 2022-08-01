@@ -67,5 +67,18 @@ function variablesPrueba(){
   return globales;
 }
 
-alert(globales);
-alert(variablesPrueba());
+//alert(globales);
+//alert(variablesPrueba());
+var miCoche = { modelo: "ecosport", marca: "ford", año: "2016"};
+//alert(miCoche.marca);
+
+function coches(){
+
+  this.marca;
+  this.modelo;
+  this.año;
+}
+
+var tuCoche = new coches();
+tuCoche.marca = "chevrolet";
+alert(tuCoche.marca);
