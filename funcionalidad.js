@@ -63,7 +63,7 @@ tipo= typeof(resultado);
 
 function variablesPrueba(){
 
-  var globales = 5;
+  var globales = 99;
   return globales;
 }
 
@@ -91,4 +91,12 @@ function sumar(){
 
  var calculo = new sumar();
 
-alert( calculo.dosNumeros(2,3));
+//alert( calculo.dosNumeros(2,3));
+
+ function miObj(){
+
+  this.obtenido = variablesPrueba;
+ }
+
+var unObj = new miObj();
+alert(unObj.obtenido());
