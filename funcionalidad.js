@@ -81,4 +81,14 @@ function coches(){
 
 var tuCoche = new coches();
 tuCoche.marca = "chevrolet";
-alert(tuCoche.marca);
+//alert(tuCoche.marca);
+
+function sumar(){
+  this.dosNumeros = function(numUno, numDos){
+
+    return numUno + numDos  }
+}
+
+ var calculo = new sumar();
+
+alert( calculo.dosNumeros(2,3));
