@@ -119,4 +119,18 @@ for (miPropiedad in unCoche) {
  sms += "\t* " + miPropiedad + "\n";
 }
 
+//alert(sms);
+
+cocheNuevo = new MiCoche("F", "U", "red");
+ sms = " ";
+for (miPropiedad in unCoche) {
+  if(typeof(cocheNuevo[miPropiedad]) == "function"){
+     sms += "\t* " + miPropiedad + "\' es un metodo. \n";
+ cocheNuevo[miPropiedad]();
+  } else{
+  sms += "\t* " + miPropiedad + "\' no es un metodo. \n";
+} 
+
+} 
+
 alert(sms);
