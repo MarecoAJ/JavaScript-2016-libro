@@ -99,4 +99,24 @@ function sumar(){
  }
 
 var unObj = new miObj();
-alert(unObj.obtenido());
+//alert(unObj.obtenido());
+
+var sms, miPropiedad, unCoche;
+
+function MiCoche(marca, modelo, color){
+
+  this.marca = marca;
+  this.modelo = modelo;
+  this.color = color;
+
+  this.arrancar = function(){ alert("arrank"); };
+}
+
+unCoche = new MiCoche("F", "U", "red");
+ sms = " ";
+for (miPropiedad in unCoche) {
+
+ sms += "\t* " + miPropiedad + "\n";
+}
+
+alert(sms);
