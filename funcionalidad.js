@@ -1,4 +1,4 @@
-var nombreCompleto = 3;
+/*var nombreCompleto = 3;
 var apellido = 'Mareco';
 nombre = 'Alejandro Julian';
 var numero1 = 0;
@@ -167,6 +167,6 @@ with(cocheWithUno){
   subirVelocidad();
   acelera(velocidadWith);
 
-}
+}*/
 
-
+//capitulo 7
