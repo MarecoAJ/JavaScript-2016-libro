@@ -133,4 +133,40 @@ for (miPropiedad in unCoche) {
 
 } 
 
-alert(sms);
+//alert(sms);
+
+var colores = "blue";
+ 
+with (cocheNuevo){
+  alert(color);
+}
+
+var cocheWithUno, velocidadWith = 100;
+
+function subirVelocidad(){
+
+  velocidadWith += 20;
+}
+
+function cocheWithFun(marcas, modelos, colores){
+
+  this.marcas = marcas;
+  this.modelos = modelos;
+  this.colores = colores;
+  this.acelera = function(velocidadWith){alert(velocidadWith)};
+}
+
+cocheWithUno = new cocheWithFun("C", "C", "azul");
+
+with(cocheWithUno){
+
+  alert(marcas);
+  alert(colores);
+  alert(this.colores);
+  acelera(velocidadWith);
+  subirVelocidad();
+  acelera(velocidadWith);
+
+}
+
+
