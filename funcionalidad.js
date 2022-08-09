@@ -170,3 +170,12 @@ with(cocheWithUno){
 }*/
 
 //capitulo 7
+
+var buleana = new Boolean(1);
+//alert(buleana);
+
+var numerico = new Number(5.543);
+//alert(Number.MIN_VALUE);
+//alert(numerico.toExponential(1));
+//alert(numerico.toFixed(3));
+alert(numerico.toPrecision(3));
