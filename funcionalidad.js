@@ -178,4 +178,11 @@ var numerico = new Number(5.543);
 //alert(Number.MIN_VALUE);
 //alert(numerico.toExponential(1));
 //alert(numerico.toFixed(3));
-alert(numerico.toPrecision(3));
+//alert(numerico.toPrecision(3));
+
+var cadena = new String("hola");
+//alert(cadena.length);
+var txtMayus;
+txtMayus = cadena.toUpperCase();
+cadena = cadena.concat(" jaja");
+alert(txtMayus + "\n" + cadena);
