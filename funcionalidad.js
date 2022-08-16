@@ -220,4 +220,13 @@ var dias = " ";
 for(var i = 0; i<semana1.length; i++){
   dias = dias + semana1[i] + '\n ';
 }
-alert(dias);
+//alert(dias);
+
+var asignaturasLetras = new Array("historia", "latin", "filosofia");
+var asignaturasCiencias = new Array("fisica", "quimica", "matematicas");
+//alert(asignaturasCiencias + "\n" + asignaturasLetras);
+
+var aula1 = new Array(asignaturasLetras, asignaturasCiencias);
+//alert(aula1);
+alert(aula1[1][2]);
+
