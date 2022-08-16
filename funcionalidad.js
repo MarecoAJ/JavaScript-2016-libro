@@ -228,5 +228,19 @@ var asignaturasCiencias = new Array("fisica", "quimica", "matematicas");
 
 var aula1 = new Array(asignaturasLetras, asignaturasCiencias);
 //alert(aula1);
-alert(aula1[1][2]);
+//alert(aula1[1][2]);
 
+function restar(num1, num2){
+  var operacion = "";
+  if(arguments.length == 2){
+    var resultado = num1-num2;
+    operacion = arguments[0] + " - " + arguments[1] + ": ";
+  } else{
+    var resultado = "no hay 2 numeros";
+  }
+  alert( operacion + resultado);
+}
+
+restar();
+restar(8);
+restar(8,2);
