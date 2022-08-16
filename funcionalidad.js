@@ -185,4 +185,27 @@ var cadena = new String("hola");
 var txtMayus;
 txtMayus = cadena.toUpperCase();
 cadena = cadena.concat(" jaja");
-alert(txtMayus + "\n" + cadena);
+//alert(txtMayus + "\n" + cadena);
+
+var vector;
+vector = new Array();
+vector[0] = 3;
+vector[1] = "hola";
+//alert(vector);
+
+
+var semana1 = new Array("lunes", "martes", "jueves");
+var semana2 = new Array("miercoles", "viernes");
+
+function compararLongitud(cadena1, cadena2){
+  if(cadena1.length > cadena2.length){
+    return 1;
+  }else if(cadena1.length < cadena2.length) {
+    return -1;
+  }else{
+    return 0;
+  }
+}
+
+//alert(semana1.sort());
+alert(semana2.sort(compararLongitud));
