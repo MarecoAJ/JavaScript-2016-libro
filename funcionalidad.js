@@ -208,4 +208,16 @@ function compararLongitud(cadena1, cadena2){
 }
 
 //alert(semana1.sort());
-alert(semana2.sort(compararLongitud));
+//alert(semana2.sort(compararLongitud));
+
+semana1[3] = "miercoles";
+semana1[4] = "viernes";
+semana1[5] = "sabado";
+semana1[6] = "domingo";
+
+var dias = " ";
+
+for(var i = 0; i<semana1.length; i++){
+  dias = dias + semana1[i] + '\n ';
+}
+alert(dias);
