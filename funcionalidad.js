@@ -213,7 +213,7 @@ function compararLongitud(cadena1, cadena2){
 semana1[3] = "miercoles";
 semana1[4] = "viernes";
 semana1[5] = "sabado";
-semana1[6] = "domingo";
+semana1[6] = "domingo"
 
 var dias = " ";
 
@@ -241,6 +241,38 @@ function restar(num1, num2){
   alert( operacion + resultado);
 }
 
-restar();
-restar(8);
-restar(8,2);
+//restar();
+//restar(8);
+//restar(8,2)
+
+var fechaActual = new Date('December 31, 2008 23:15:30 GMT-3:00');
+//alert(fechaActual.getUTCFullYear());
+var fecha = fechaActual.setFullYear(2010);
+//alert(fechaActual.setDate(2));
+//alert(fechaActual.toDateString());
+
+var nacimiento = new Date(1975, 0, 30);
+var hoy = new Date();
+var edadMilisegundos = hoy - nacimiento;
+var edad = parseInt(edadMilisegundos / 1000 / 60 / 60 / 24 / 365);
+//alert(edad);
+
+var edadConMetodos = new Date(edadMilisegundos);
+//alert(edadConMetodos.getFullYear()-1970);
+
+function calcularEdad(nacimiento){
+  var actualFecha = new Date();
+  var años = actualFecha.getFullYear() - nacimiento.getFullYear();
+  if(actualFecha.getMonth() > nacimiento.getMonth()){
+
+  }else if(actualFecha.getMonth() < nacimiento.getMonth()){
+    años--;
+  } else{
+    if(actualFecha.getDate() < nacimiento.getDate()){
+      años--;
+    }
+  }
+  return años;
+}
+
+alert(calcularEdad(nacimiento));
