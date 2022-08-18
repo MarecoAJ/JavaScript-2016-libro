@@ -275,4 +275,7 @@ function calcularEdad(nacimiento){
   return años;
 }
 
-alert(calcularEdad(nacimiento));
+//alert(calcularEdad(nacimiento));
+
+//alert(Math.random());
+alert(Math.sqrt(9));
