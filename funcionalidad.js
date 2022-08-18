@@ -167,7 +167,7 @@ with(cocheWithUno){
   subirVelocidad();
   acelera(velocidadWith);
 
-}*/
+}
 
 //capitulo 7
 
@@ -278,4 +278,13 @@ function calcularEdad(nacimiento){
 //alert(calcularEdad(nacimiento));
 
 //alert(Math.random());
-alert(Math.sqrt(9));
+//alert(Math.sqrt(9));
+
+var miPatron = new RegExp("\\d{2}-\\d{2}-\\d{4}");
+//alert(miPatron.test("22-08-2022"));
+
+var texto = "a b c d e";
+alert(texto.split(/ /));
+*/
+// capitulo 8
+
