@@ -288,3 +288,5 @@ alert(texto.split(/ /));
 */
 // capitulo 8
 
+alert("la ventana mide: " + Window.outerWidth + " x " + Window.outerHeight + " pc\n" + " hay un espacio disp. de: " 
+  + Window.innerWigth + " x " + Window.innerHeight + "px");
