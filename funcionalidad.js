@@ -288,5 +288,16 @@ alert(texto.split(/ /));
 */
 // capitulo 8
 
-alert("la ventana mide: " + Window.outerWidth + " x " + Window.outerHeight + " pc\n" + " hay un espacio disp. de: " 
-  + Window.innerWigth + " x " + Window.innerHeight + "px");
+//alert("la ventana mide: " + Window.outerWidth + " x " + Window.outerHeight + " pc\n" + " hay un espacio disp. de: " 
+//  + Window.innerWigth + " x " + Window.innerHeight + "px");
+
+//confirm("hola");
+//prompt("hols");
+
+var nombre = prompt("Hola como te llamas?");
+var boton = confirm("te gusta JS " + nombre + "?");
+if(boton){
+  alert(" ok ");
+}else {
+  alert("lamento");
+}
