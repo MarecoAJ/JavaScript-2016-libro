@@ -294,10 +294,123 @@ alert(texto.split(/ /));
 //confirm("hola");
 //prompt("hols");
 
+/*
 var nombre = prompt("Hola como te llamas?");
 var boton = confirm("te gusta JS " + nombre + "?");
 if(boton){
   alert(" ok ");
 }else {
   alert("lamento");
+} 
+
+var ventana = window.open("mi_pag.html");
+if(ventana==null){
+  alert("no se pudo abrir ventana");
 }
+
+window.open("mi_pag.html", "ventana1", "width=500, heigth=500");
+window.open("mi_pag.html", "ventana2", "width=500, heigth=500, top=100, left=100");
+open("mi_pag.html", "ventana3", "toolbar=1, menubar=0, location=0");
+*/
+
+//setTimeout("alert(\" bienvenido\")", 5000);
+
+/*var temp = setTimeout("alert(\" bienvenido\")", 10000);
+var boton = confirm("cancelar ejecucion?");
+if(boton){
+  clearTimeout(temp);
+}
+*/
+/*var temp;
+function preguntar(){
+  var boton = confirm("quieres continuar?");
+  if(!boton){
+t js    alert("hasta pronto");
+    clearInterval(temp);
+  }
+}
+
+temp = setInterval(preguntar, 5000);
+*/
+
+/*var temp , miNombre;
+
+function preguntar(nombre){
+  var boton = confirm("quieres continuar? " + nombre );
+  if(!boton){
+    alert("hasta pronto");
+    clearInterval(temp);
+  }
+}
+
+miNombre = prompt("como te llamas?");
+temp = setInterval(function(){
+  preguntar(miNombre);}, 5000);
+*/
+
+function mostrarMensaje(mensaje){
+  alert(mensaje);
+}
+
+setTimeout(function(){
+  var ahora = new Date();
+  mostrarMensaje("son las: " + ahora.toLocaleTimeString());
+  mostrarMensaje("gracias");
+}, 5000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
