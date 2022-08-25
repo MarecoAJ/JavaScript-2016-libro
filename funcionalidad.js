@@ -359,10 +359,11 @@ setTimeout(function(){
 }, 5000);
 */
 
-alert(navigator.appCodeName + " \n" + navigator.appName + " \n " + navigator.appVersion+ " \n " +
+/*alert(navigator.appCodeName + " \n" + navigator.appName + " \n " + navigator.appVersion+ " \n " +
   navigator.userAgent + " \n " + navigator.lenguage + " \n " + navigator.plataform
  + " \n " + navigator.cookieEnabled + " \n " + navigator.geolocation + " \n " + navigator.onLine );
-
+*/
+alert( screen.width + " \n " + screen.height + " \n " + screen.availHeight + " \n " + screen.availWidth + " \n " + screen.colorDepth);
 
 
 
