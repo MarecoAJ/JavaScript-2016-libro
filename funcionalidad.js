@@ -370,7 +370,9 @@ setTimeout(function(){
 
 location.href = "pagina3.php";
 location.href = "cursos/pagina3.php";
-location.href = "http://www.google.com";
+location.replace("http://www.google.com");
+
+
 
 
 
