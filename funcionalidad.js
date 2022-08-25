@@ -363,12 +363,14 @@ setTimeout(function(){
   navigator.userAgent + " \n " + navigator.lenguage + " \n " + navigator.plataform
  + " \n " + navigator.cookieEnabled + " \n " + navigator.geolocation + " \n " + navigator.onLine );
 */
-alert( screen.width + " \n " + screen.height + " \n " + screen.availHeight + " \n " + screen.availWidth + " \n " + screen.colorDepth);
 
+//alert( screen.width + " \n " + screen.height + " \n " + screen.availHeight + " \n " + screen.availWidth + " \n " + screen.colorDepth);
 
+//alert( href + " \n " + hostname + " \n " + pathname + " \n " + hash + " \n " + search + " \n " + port + " \n " + host + " \n " + protocol);
 
-
-
+location.href = "pagina3.php";
+location.href = "cursos/pagina3.php";
+location.href = "http://www.google.com";
 
 
 
