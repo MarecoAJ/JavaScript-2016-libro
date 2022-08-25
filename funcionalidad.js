@@ -348,7 +348,7 @@ temp = setInterval(function(){
   preguntar(miNombre);}, 5000);
 */
 
-function mostrarMensaje(mensaje){
+/*function mostrarMensaje(mensaje){
   alert(mensaje);
 }
 
@@ -357,19 +357,11 @@ setTimeout(function(){
   mostrarMensaje("son las: " + ahora.toLocaleTimeString());
   mostrarMensaje("gracias");
 }, 5000);
+*/
 
-
-
-
-
-
-
-
-
-
-
-
-
+alert(navigator.appCodeName + " \n" + navigator.appName + " \n " + navigator.appVersion+ " \n " +
+  navigator.userAgent + " \n " + navigator.lenguage + " \n " + navigator.plataform
+ + " \n " + navigator.cookieEnabled + " \n " + navigator.geolocation + " \n " + navigator.onLine );
 
 
 
