@@ -368,12 +368,22 @@ setTimeout(function(){
 
 //alert( href + " \n " + hostname + " \n " + pathname + " \n " + hash + " \n " + search + " \n " + port + " \n " + host + " \n " + protocol);
 
-location.href = "pagina3.php";
+/*location.href = "pagina3.php";
 location.href = "cursos/pagina3.php";
 location.replace("http://www.google.com");
+*/
+alert(document.lastModified);
 
+document.write("insertar txt desde js");
 
-
+var elemento = document.getElementById("txt1");
+if(elemento!=null){
+  alert("existe ");
+} else{
+  alert("no extiste");
+} 
+var i = document.getElementsByTagName("p");
+alert(i.length);
 
 
 
