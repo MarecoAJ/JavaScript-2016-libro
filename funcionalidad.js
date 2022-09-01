@@ -386,21 +386,20 @@ var i = document.getElementsByTagName("p");
 alert(i.length);
 */
 
-with(document.anchors[0]){
+/*with(document.anchors[0]){
   alert(id);
 }
 
+*/
+/*var a = "hola";
+with(document.link[0]){
+  a = id;
+}
 
+alert(a);
+*/
 
-
-
-
-
-
-
-
-
-
+//capitulo 9
 
 
 
