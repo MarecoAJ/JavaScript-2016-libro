@@ -372,7 +372,7 @@ setTimeout(function(){
 location.href = "cursos/pagina3.php";
 location.replace("http://www.google.com");
 */
-alert(document.lastModified);
+/*alert(document.lastModified);
 
 document.write("insertar txt desde js");
 
@@ -384,8 +384,11 @@ if(elemento!=null){
 } 
 var i = document.getElementsByTagName("p");
 alert(i.length);
+*/
 
-
+with(document.anchors[0]){
+  alert(id);
+}
 
 
 
