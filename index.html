@@ -40,5 +40,24 @@ alert(--decrNum);
     <noscript>
       no se ejecuto codigo
     </noscript>
+
+    <h3>formulario para dar alta a un usuario</h3>
+    <form id="formulario1" name="formRegistro" action="registrar.php" method="get">
+        Tu nombre: <input type="text" name="nombreUsuario" id="entrada1" maxlength="8">(max. 8 caracter)<br />
+        Tu contraseña: <input type="password" name="clave" id="entrada2" ><br />
+        Tu mail: <input type="text" name="mail" id="entrada3" size="40" ><br />
+    </form>
+    <h3>formulario para subir ficheros al servidor</h3>
+    <form id="formulario2" name="formFicheros" action="guardar_ficheros.php" method="post" enctype="multipart/form-data">
+        Fichero: <input type="file" name="fichero" id="entrada4" ><br />
+        Descripción: <textarea id="entrada5" name="description" cols="40" rows="3"></textarea><br />
+    </form>
+    <h3>formulario para confirmar una compra</h3>
+    <form id="formulario3" name="formCompra" action="confirmar_compra.php" target="_blank">
+    <!--                       campo oculto con la fase de compra                                          -->
+        <input type="hidden" name="fase" id="entrada6" value="confirmación">
+        Tu usuario: <input type="text" name="usuario" id="entrada7" maxlength="8"><br />
+        Importe total: <input type="text" name="importe" id="entrada8" size="10" value="54,75" readonly >euros
+    </form>
   </body>
 </html>
