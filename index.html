@@ -46,17 +46,21 @@ alert(--decrNum);
         Tu nombre: <input type="text" name="nombreUsuario" id="entrada1" maxlength="8">(max. 8 caracter)<br />
         Tu contraseña: <input type="password" name="clave" id="entrada2" ><br />
         Tu mail: <input type="text" name="mail" id="entrada3" size="40" ><br />
-        Tu pais: <select id="selecion1" name="pais" >
-            <option id="opc1" value="AND">Andorra</option>
-            <option id="opc2" value="ARG">Argentina</option>
-            <option id="opc3" value="ESP">Espania</option>
-        </select>
+        Tu pais:<select id="selecion1" name="pais" >
+                    <option id="opc1" value="AND">Andorra</option>
+                    <option id="opc2" value="ARG">Argentina</option>
+                    <option id="opc3" value="ESP">Espania</option>
+                </select>
+        <input type="reset" id="boton1" name="limpiar" />
+        <input type="submit" id="boton2" name="enviar" />
     </form>
     <h3>formulario para subir ficheros al servidor</h3>
     <form id="formulario2" name="formFicheros" action="guardar_ficheros.php" method="post" enctype="multipart/form-data">
         Fichero: <input type="file" name="fichero" id="entrada4" ><br />
         Descripción: <textarea id="entrada5" name="description" cols="40" rows="3"></textarea><br />
         <input type="checkbox" id="selecion2" name="comprimir" /> comprimir en ZIP
+        <input type="reset" id="boton3" name="limpiar" value="cambiar fichero" />
+        <input type="submit" id="boton4" name="enviar" value="subir fichero"/>
     </form>
     <h3>formulario para confirmar una compra</h3>
     <form id="formulario3" name="formCompra" action="confirmar_compra.php" target="_blank">
@@ -67,6 +71,7 @@ alert(--decrNum);
         Pago: <input type="radio" id="seleccion3" name="pago" value="tarjeta"> VISA/MASTERCARD
         <input type="radio" id="seleccion4" name="pago" value="paypal"> paypal
         <input type="radio" id="seleccion5" name="pago" value="efectivo" checked /> efectivo
+        <input type="button" name="confirmar" id="boton5" value="confirmar y seguir" />
     </form>
     </form>
     </form>
